@@ -1,0 +1,653 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Error Report</title>
+      <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .step { margin-bottom: 20px; }
+        .error { color: red; }
+      </style>
+    </head>
+    <body>
+      <h1>Error Report</h1>
+      <div class="steps">
+  <div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> And</div>
+      <div><strong>Description:</strong> And 
+                           the user clicks on Birthday setup link
+                            
+                          
+                              
+                               30s 92ms</div>
+      <div><strong>Duration:</strong> 30s 92ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-1_04">                                            <br> Error: Failed to find the [setupBirthdayBotLink] element after waiting for time:  30004 milliseconds
+    at loginPage.waitForElementInNewPage (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:464:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/allowances/validateBotRedirection.steps.ts:34:32)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           the user clicks on Allowances
+                            
+                          
+                              
+                               46s 762ms</div>
+      <div><strong>Duration:</strong> 46s 762ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-2_03">                                            <br> Error: Failed to find the [Admin BreadCrum] element after waiting for time:  30002 milliseconds
+    at loginPage.waitForElementInNewPage (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:464:15)
+    at async adminPage.getBreadcrumTextOfNewPage (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/adminpage/adminPage.ts:462:28)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/allowances/validateBotRedirection.steps.ts:22:19)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> And</div>
+      <div><strong>Description:</strong> And 
+                           user updates default custom points "20000"
+                            
+                          
+                              
+                               30s 122ms</div>
+      <div><strong>Duration:</strong> 30s 122ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-2_14">                                            <br> elementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  [2m- attempting click action[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -     element is not enabled - waiting...[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/allowances/validateCustomPoints.steps.ts:45:23)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Then</div>
+      <div><strong>Description:</strong> Then 
+                           display challenges & create challenges button under challenges tab
+                            
+                          
+                              
+                               34s 921ms</div>
+      <div><strong>Duration:</strong> 34s 921ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-6_16">                                            <br> locator.hover: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Create new challenge' })[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/ActivateChallenge.steps.ts:82:28)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           user clicks on create a challenge
+                            
+                          
+                              
+                               30s 77ms</div>
+      <div><strong>Duration:</strong> 30s 77ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-7_04">                                            <br> locator.click: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Create new challenge' })[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/CreateEditChallenge.steps.ts:25:46)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user sees the created challenge card under challenges tab
+                            
+                          
+                              
+                               30s 103ms</div>
+      <div><strong>Duration:</strong> 30s 103ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-7_13">                                            <br> locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('//*[@id=\'assembly_app\']/div[4]/div/main/section[2]/section/div[1]/div/div[1]/div').first() to be visible[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/CreateEditChallenge.steps.ts:178:51)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           user clicks on create a challenge
+                            
+                          
+                              
+                               30s 35ms</div>
+      <div><strong>Duration:</strong> 30s 35ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-7_24">                                            <br> locator.click: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Create new challenge' })[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/CreateEditChallenge.steps.ts:25:46)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user sees the created challenge card under challenges tab
+                            
+                          
+                              
+                               30s 107ms</div>
+      <div><strong>Duration:</strong> 30s 107ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-7_33">                                            <br> locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('//*[@id=\'assembly_app\']/div[4]/div/main/section[2]/section/div[1]/div/div[1]/div').first() to be visible[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/CreateEditChallenge.steps.ts:178:51)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user sees the created challenge card under challenges tab
+                            
+                          
+                              
+                               30s 124ms</div>
+      <div><strong>Duration:</strong> 30s 124ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-7_43">                                            <br> locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('//*[@id=\'assembly_app\']/div[4]/div/main/section[2]/section/div[1]/div/div[1]/div').first() to be visible[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/CreateEditChallenge.steps.ts:178:51)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           the user clicks on view proof to approves a challenge
+                            
+                          
+                              
+                               30s 1ms</div>
+      <div><strong>Duration:</strong> 30s 1ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-8_04">                                            <br> locator.hover: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('button', { name: 'View proof' }).first()[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/VerifyClaimApproval.steps.ts:25:40)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           the user clicks on view proof to approves a challenge
+                            
+                          
+                              
+                               30s 3ms</div>
+      <div><strong>Duration:</strong> 30s 3ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-8_14">                                            <br> locator.hover: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('button', { name: 'View proof' }).first()[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/VerifyClaimApproval.steps.ts:25:40)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user sees the created challenge card under challenges tab
+                            
+                          
+                              
+                               30s 79ms</div>
+      <div><strong>Duration:</strong> 30s 79ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-9_03">                                            <br> locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('//*[@id=\'assembly_app\']/div[4]/div/main/section[2]/section/div[1]/div/div[1]/div').first() to be visible[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/challenge/CreateEditChallenge.steps.ts:178:51)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user creates a new scheduled flow from scratch
+                            
+                          
+                              
+                               38s 637ms</div>
+      <div><strong>Duration:</strong> 38s 637ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-13_02">                                            <br> locator.click: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for frameLocator('iframe[title="Discover"]').getByTestId('scheduled-clickable')[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/flows/createFlowFromScratch.steps.ts:30:41)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user has a flow to share
+                            
+                          
+                              
+                               1m 30s 7ms</div>
+      <div><strong>Duration:</strong> 1m 30s 7ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-13_12">                                            <br> Error: function timed out, ensure the promise resolves within 90000 milliseconds
+    at Timeout.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/node_modules/@cucumber/cucumber/src/time.ts:69:14)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user has a flow to share
+                            
+                          
+                              
+                               1m 5s 690ms</div>
+      <div><strong>Duration:</strong> 1m 5s 690ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-13_22">                                            <br> Error: Failed to find the [Flows First card] element after waiting for time:  30002 milliseconds
+    at loginPage.waitForElement (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:435:15)
+    at async flowPage.selectAnonymousFlow (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/homepage/flowPage.ts:973:5)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/flows/createEditFlowUsingTemplate.steps.ts:108:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user logs in using username and passcode
+                            
+                          
+                              
+                               42s 509ms</div>
+      <div><strong>Duration:</strong> 42s 509ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-14_01">                                            <br> Error: Element is not visible after waiting for specified time: 5000 milliseconds
+    at loginPage.checkElementVisibality (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:412:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/signin/signin&amp;signup.steps.ts:68:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user logs in using username and passcode
+                            
+                          
+                              
+                               39s 780ms</div>
+      <div><strong>Duration:</strong> 39s 780ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-14_11">                                            <br> Error: Element is not visible after waiting for specified time: 5000 milliseconds
+    at loginPage.checkElementVisibality (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:412:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/signin/signin&amp;signup.steps.ts:68:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user logs in using username and passcode
+                            
+                          
+                              
+                               42s 144ms</div>
+      <div><strong>Duration:</strong> 42s 144ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-15_01">                                            <br> Error: Element is not visible after waiting for specified time: 5000 milliseconds
+    at loginPage.checkElementVisibality (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:412:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/signin/signin&amp;signup.steps.ts:68:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           the user clicks on General section
+                            
+                          
+                              
+                               30s 104ms</div>
+      <div><strong>Duration:</strong> 30s 104ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-15_13">                                            <br> Error: Failed to find the [Admin BreadCrum] element after waiting for time:  30005 milliseconds
+    at loginPage.waitForElementInNewPage (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:464:15)
+    at async adminPage.getBreadcrumTextOfNewPage (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/adminpage/adminPage.ts:462:28)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/general/validateCurrencyCompanyField.steps.ts:23:5)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user logs in using username and passcode
+                            
+                          
+                              
+                               51s 430ms</div>
+      <div><strong>Duration:</strong> 51s 430ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-16_01">                                            <br> Error: Element is not visible after waiting for specified time: 5000 milliseconds
+    at loginPage.checkElementVisibality (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:412:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/signin/signin&amp;signup.steps.ts:68:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user logs in using username and passcode
+                            
+                          
+                              
+                               49s 740ms</div>
+      <div><strong>Duration:</strong> 49s 740ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-16_11">                                            <br> Error: Element is not visible after waiting for specified time: 5000 milliseconds
+    at loginPage.checkElementVisibality (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:412:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/signin/signin&amp;signup.steps.ts:68:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user logs in using username and passcode
+                            
+                          
+                              
+                               15m 19s 392ms</div>
+      <div><strong>Duration:</strong> 15m 19s 392ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-16_21">                                            <br> Error: function timed out, ensure the promise resolves within 90000 milliseconds
+    at Timeout.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/node_modules/@cucumber/cucumber/src/time.ts:69:14)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           user uploads valid image "duplicateInvitees.PNG" in avatar
+                            
+                          
+                              
+                               30s 3ms</div>
+      <div><strong>Duration:</strong> 30s 3ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-19_03">                                            <br> locator.click: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for frameLocator('iframe[title="Discover"]').getByRole('button', { name: '+ Add your Avatar' })[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/profile/verifyProfileSettings.steps.ts:46:40)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           user deletes uploaded image
+                            
+                          
+                              
+                               33s 340ms</div>
+      <div><strong>Duration:</strong> 33s 340ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-19_23">                                            <br> Error: Failed to find the [imgWindow] element after waiting for time:  30011 milliseconds
+    at loginPage.waitForElementInsideIFrame (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:494:15)
+    at async profilePage.deleteAvatar (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/homepage/profilePage.ts:293:5)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/profile/verifyProfileSettings.steps.ts:183:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user selects "Automation user1" to celebrate
+                            
+                          
+                              
+                               30s 6ms</div>
+      <div><strong>Duration:</strong> 30s 6ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-21_02">                                            <br> locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Give recognition', exact: true }) to be visible[22m
+
+    at recognitionPage.goTogiveRecognition (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/homepage/recognitionPage.ts:407:84)
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/celebrateUsers.steps.ts:172:31)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user adds comment "new comment s@$^% aj88% using special & alphanumeric characters" to post
+                            
+                          
+                              
+                               30s 160ms</div>
+      <div><strong>Duration:</strong> 30s 160ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-21_12">                                            <br> Error: Failed to find the [Reply to Post] element after waiting for time:  30004 milliseconds
+    at loginPage.waitForElement (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:435:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/celebrateUsers.steps.ts:108:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           user edits legacy post by clicking on Edit my post option
+                            
+                          
+                              
+                               24s 783ms</div>
+      <div><strong>Duration:</strong> 24s 783ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-22_03">                                            <br> locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  [2m- waiting for frameLocator('iframe[title="Discover"]').locator('//div[contains(text(), \'You are editing\')]') to be visible[22m
+
+    at recognitionPage.validateEditMyPostBanner (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/homepage/recognitionPage.ts:719:30)
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/editLegacyPost.steps.ts:41:33)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user selects member "Automation user4" to Celebrate
+                            
+                          
+                              
+                               23s 601ms</div>
+      <div><strong>Duration:</strong> 23s 601ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-23_02">                                            <br> AssertionError: expected '33%' to include '25%'
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/celebrateUsers.steps.ts:21:60)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           someone mentions user in reply of a post
+                            
+                          
+                              
+                               30s 2ms</div>
+      <div><strong>Duration:</strong> 30s 2ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-24_02">                                            <br> locator.click: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('//button[@data-qa-id=\'btn-side-draw-toggle\']')[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/verifyCelebratedNotification.steps.ts:50:49)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           someone mentions user in Description
+                            
+                          
+                              
+                               30s 2ms</div>
+      <div><strong>Duration:</strong> 30s 2ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-24_12">                                            <br> locator.click: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('//button[@data-qa-id=\'btn-side-draw-toggle\']')[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/verifyCelebratedNotification.steps.ts:12:49)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user deletes comment
+                            
+                          
+                              
+                               30s 169ms</div>
+      <div><strong>Duration:</strong> 30s 169ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-25_02">                                            <br> Error: Failed to find the [giveRecognitionText] element after waiting for time:  30002 milliseconds
+    at loginPage.waitForElement (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:435:15)
+    at async recognitionPage.clickOnGiveRecognition (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/homepage/recognitionPage.ts:395:5)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/verifyDeleteRecognitionPosts.steps.ts:54:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Given</div>
+      <div><strong>Description:</strong> Given 
+                           user deletes post by allowing receiver to keep points
+                            
+                          
+                              
+                               30s 156ms</div>
+      <div><strong>Duration:</strong> 30s 156ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-25_12">                                            <br> Error: Failed to find the [giveRecognitionText] element after waiting for time:  30003 milliseconds
+    at loginPage.waitForElement (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:435:15)
+    at async recognitionPage.clickOnGiveRecognition (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/homepage/recognitionPage.ts:395:5)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/recognition/verifyDeleteRecognitionPosts.steps.ts:43:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> And</div>
+      <div><strong>Description:</strong> And 
+                           the user applies the Custom Date created secondary filter and check the relevant results
+                            
+                          
+                              
+                               36s 503ms</div>
+      <div><strong>Duration:</strong> 36s 503ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-26_36">                                            <br> locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for getByLabel('Saturday 5 August') to be visible[22m
+
+    at secondaryFilters.customDateSecondaryFilter (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/v3/secondaryFilters.ts:301:46)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/secondaryFilters/secondaryFiltersAllCategory.steps.ts:291:5)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           user selects the collection and click on share
+                            
+                          
+                              
+                               30s 281ms</div>
+      <div><strong>Duration:</strong> 30s 281ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-29_33">                                            <br> Error: Failed to find the [collectionFirstCard] element after waiting for time:  30003 milliseconds
+    at loginPage.waitForElement (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:435:15)
+    at async collection.shareCollection (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/v3/collection.ts:294:5)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/sharingCollections/verifySharingCollectionGeneralSharesheet.steps.ts:119:3)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           collaborator selects the collection and click on share
+                            
+                          
+                              
+                               30s 115ms</div>
+      <div><strong>Duration:</strong> 30s 115ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-32_03">                                            <br> locator.innerText: Timeout 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('//*[@id=\'assembly_app\']/div[4]/div/main/section[2]/section/section[1]/div/div/button/div')[22m
+
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/sharingCollections/verifySharingCollectionSharedCollection.steps.ts:14:54)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> And</div>
+      <div><strong>Description:</strong> And 
+                           user must be able to validate Participation content
+                            
+                          
+                              
+                               2s 46ms</div>
+      <div><strong>Duration:</strong> 2s 46ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-33_05">                                            <br> Error: Table header count is mismatched
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/userEarningParticipationActivity/validateRecognitionParticipation.steps.ts:80:11)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> When</div>
+      <div><strong>Description:</strong> When 
+                           user clicks on Activity
+                            
+                          
+                              
+                               30s 135ms</div>
+      <div><strong>Duration:</strong> 30s 135ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-34_03">                                            <br> Error: Failed to find the [usersText] element after waiting for time:  30002 milliseconds
+    at loginPage.waitForElementInNewPage (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:464:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/userEarningParticipationActivity/validateUserActivity.steps.ts:17:21)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> And</div>
+      <div><strong>Description:</strong> And 
+                           display TURN ALL CARDS ON button
+                            
+                          
+                              
+                               30s 175ms</div>
+      <div><strong>Duration:</strong> 30s 175ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-43_15">                                            <br> Error: Failed to find the [turnAllCardsOn] element after waiting for time:  30003 milliseconds
+    at loginPage.waitForElementInNewPage (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/pageobjects/loginPage.ts:464:15)
+    at async CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/rewards/charitableDonation.steps.ts:120:26)</pre>
+                                    </div>
+    </div><div class="step">
+      <div><strong>Status:</strong> Failed</div>
+      <div><strong>Keyword:</strong> Then</div>
+      <div><strong>Description:</strong> Then 
+                           selected country cards should be displayed
+                            
+                          
+                              
+                               2s 827ms</div>
+      <div><strong>Duration:</strong> 2s 827ms</div>
+      <div class="error"><strong>Error:</strong> 
+                                        <pre class="info show-modal" data-toggle="modal" style="cursor: pointer" data-target="#error-modal-43_26">                                            <br> AssertionError: expected 'Ace Hardware\n\nCost: 🏆100 - 🏆500\n…' to include 'FLOWERS'
+    at CustomWorld.(anonymous) (/Users/dhivyakumaravel/Documents/Assembly_Workspace/assembly_automation/src/steps/v3Rewards/giftCardsV3.steps.ts:227:64)</pre>
+                                    </div>
+    </div>
+      </div>
+    </body>
+    </html>
